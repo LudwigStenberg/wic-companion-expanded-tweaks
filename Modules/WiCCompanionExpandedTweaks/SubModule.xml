@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="WiC Companion Expanded Tweaks" />
+	<Id value="WiCCompanionExpandedTweaks" />
+	<Version value="v1.0.0" />
+	<DefaultModule value="false" />
+	<ModuleCategory value="Singleplayer" />
+	<Official value="false" />
+	<DependedModules>
+		<DependedModule Id="Native" />
+		<DependedModule Id="SandBoxCore" />
+		<DependedModule Id="Sandbox" />
+		<DependedModule Id="StoryMode" />
+		<DependedModule Id="CustomBattle" />
+		<DependedModule Id="Bannerlord.Harmony" />
+		<DependedModule Id="BannerlordExpanded.CompanionExpanded" />
+		<DependedModule Id="WomeninCalradia" />
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+			<Name value="WiCCompanionExpandedTweaks" />
+			<DLLName value="WiCCompanionExpandedTweaks.dll" />
+			<SubModuleClassType value="WiCCompanionExpandedTweaks.SubModule" />
+		</SubModule>
+	</SubModules>
+</Module>
